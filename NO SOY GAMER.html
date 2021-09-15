@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<HTML lang="en"></HTML>
+<head> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   </head> 
+   <html>
+	<head>
+		<title>Menu Desplegable</title>
+		<style type="text/css">
+			
+			* {
+				margin:0px;
+				padding:0px;
+			}
+	body {
+        background-image: url(FONDO.jpg);
+        background-size: cover;
+            }
+
+			#header {
+				margin:auto;
+				width:1000px;
+				font-family:monospace;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:rgb(156, 64, 241);
+				text-decoration:none;
+				padding: 15px 20px;
+				display:block;
+                
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<main><div id="header">
+			<ul class="nav">
+				<li><a href="">Acción</a></li>
+                
+				<li><a href="">Aventura</a>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=hh5HV4iic1Y">Uncharted 4</a></li>
+						<li><a href="https://www.youtube.com/watch?v=q4GdJVvdxss">Spider-man</a></li>
+						<li><a href="https://www.youtube.com/watch?v=pdZQ98mWeto">Shadow of The Colossus</a></li>
+						<li><a href="https://www.youtube.com/watch?v=_BvZvkT5QHw">Horizon Zero Dawn</a>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Deportes</a>
+					<ul>
+						<li><a href="https://www.youtube.com/watch?v=Jmliox1trPQ">FIFA 21</a></li>
+						<li><a href="https://www.youtube.com/watch?v=kfEUX1fVy5A">Madden 21</a></li>
+						<li><a href="https://www.youtube.com/watch?v=Ib5ygUYjHZI">NBA 2K21</a></li>
+						<li><a href="https://www.youtube.com/watch?v=MC2qa5mfRJ8">MLB 21: The Show</a></li>
+                        <li> <a href="https://www.youtube.com/watch?v=K-5EdHZ0hBs">Need For Speed: Payback</a></li>
+					</ul>
+				</li>
+				<li><a href="">Terror</a></li>
+                <li><a href="">First Person Shooter</a></li>
+                <li><a href="">RPG</a></li>
+                <li><a href="">Lucha</a></li>
+                <li><a href="">Aventura narrativa</a></li>
+                
+		</div></main>
+	</body>
+</html>
