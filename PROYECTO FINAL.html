@@ -5,62 +5,97 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    </head> 
-   <title>Gamefinder</title>
+   <title>GameFinder</title>
     <style>
-   main { 
-     display: grid;  
-       background-color: rgb(173, 55, 202);     
-       grid-template-columns: 1fr 1fr;
-       grid-template-rows: 400px;
-       justify-items: center; }
+   * {
+     background-color:black;
+   }
    
-   .content {
-     background-color: #434343;
- }
-
-.si {
-  background-color: #F72585; 
+   main { 
+       display: grid;  
+       background-color: black;     
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
+       justify-items: center;
+       margin-top: 2cm;
+       
   }
-  
- .h1 {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 140px;
+   
+ .titulo {
     text-align: center;
-    justify-content: center;
-    font-size: xx-large;
+    font-size: 100px;
     font-family: "garamond";
-    
+    background-color: rgb(111, 189, 192);
+    padding: 0%;
+    border: 0cm;
+    margin: 0cm;
+    }
+
+.nunca {
+  font-family:monospace;
+  font-size: 30px;
+  color: blueviolet;
+  margin: 1cm black;
 }
-.h1 {
-  background-color: cadetblue;
+
+.gamer {
+  font-family: monospace;
+  font-size: 30px;
+  color: blueviolet;
+  margin: 3cm BLUEVIOLET;
+}
+
+a.button {
+  appearance: button;
+  text-decoration-style: solid;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #F72585; 
+  font-size: xx-large;
+ justify-content:stretch; 
+ padding: 30px;
+ border-radius: 90%;
+ border-color: blueviolet;
+}
+
+a.button:hover {
+  color: #1883ba;
+  background-color: rgb(111, 189, 192);
   
 }
-.h2 {display: grid;
-grid-template-columns: 1fr;}
+a.button2 { 
+  background-color: #25f784; 
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: xx-large;
+ justify-content:center;
+ padding: 30px;
+ border-radius: 90%;
+ 
+}
+
+a.button2:hover {
+  color: #1883ba;
+    background-color: rgb(111, 189, 192);
+}
+
+.footer {
+  background-color: blueviolet;
+}
+
+
 </style>
 <body>
-  <h1 style="text-align:center;">GameFinder</h1>
+  <header><h1 style="text-align:center;" class="titulo"> GameFinder</h1></header>
   <main>
-   <section > 
-         <div></div> 
-        
-         <div class="content center-elements"></div>
-         <button class="si">
-         NO SOY GAMER
-        </button>
-      
-       <button class="si">
-          SOY GAMER
-          </button>
-    <div></div> 
-          <h2> Nunca jugué o he jugado a muy pocos juegos, y necesito recomendaciones desde cero. </h2>
-        <h3>He jugado a bastantes juegos, y ya no se a que jugar. Necesito recomendaciones personalizadas.</h3>
-  </section>
-
-  
- </section></main>
- <footer>
-   
-  </footer>
+   <section> 
+       <a href="NO SOY GAMER.html" a style="text-decoration: none;"  class="button"> NO SOY GAMER</a> </section>
+       <a href="LISTA DESPLEGABLE.html" a style="text-decoration: none;" class="button2"> SOY GAMER</a> </section>
+          <div></div>
+        <div></div>
+   </section> 
+    
+ <section> <h2 class="nunca"> <br> Soy nuevo en el mundo de los videojuegos</br>  Necesito recomendaciones desde cero </h2> </section> 
+ <section> <h2 class="gamer"> <br> Juego seguido y ya no se a que jugar.</br> Necesito recomendaciones personalizadas.</h2></section> 
+  <div></div>
+  </main>
 </body>
+ 
